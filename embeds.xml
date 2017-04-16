@@ -1,0 +1,11 @@
+<Ui>
+	<Script file="core.lua"/> 
+	<Frame name="SimplePull"> 
+		<Scripts> 
+			<OnLoad>
+				<!--comment-->
+				SimplePull_ShowMessage();
+			</OnLoad>
+		</Scripts>
+	</Frame>
+</Ui>

@@ -1,0 +1,9 @@
+## Interface: 70200
+## Title: SimplePull
+## Notes: A simple pull addon. Use /spull help or /simplepull help for more info. 
+## Author: Forgent
+## Version: 0.1
+## SavedVariables: SimplePullSettings
+## SavedVariablesPerCharacter: SimplePullSettingsPerChar
+
+embeds.xml
