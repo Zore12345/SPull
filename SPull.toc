@@ -1,5 +1,5 @@
 ## Interface: 70200
-## Title: SimplePull
+## Title: SPull
 ## Notes: A simple pull addon. Use /spull help or /simplepull help for more info. 
 ## Author: Forgent
 ## Version: 0.1
