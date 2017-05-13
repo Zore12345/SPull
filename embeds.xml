@@ -4,7 +4,7 @@
 		<Scripts> 
 			<OnLoad>
 				<!--comment-->
-				SimplePull_ShowMessage();
+				showSPullLoadMessage();
 			</OnLoad>
 		</Scripts>
 	</Frame>
