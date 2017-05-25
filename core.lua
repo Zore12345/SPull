@@ -69,7 +69,7 @@ SlashCmdList["HIDDENINTHECODE"] = slashHiddenStuff;
 SLASH_SERVERTIME1 = '/showservertime'
 local function slashServerTimeStuff(msg, editbox)
 	local hour,minute = GetGameTime();
-	print(hour .. ":" .. minute .. ":" .. math.floor(serverseconds + .5));
+	print("Current Server Time is "..string.format("%02i:%02i:%02i",hour,minute, math.floor(serverseconds + .5)));
 end
 SlashCmdList["SERVERTIME"] = slashServerTimeStuff;
 
