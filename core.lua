@@ -66,6 +66,7 @@ local function slashHiddenStuff(msg, editbox)
 end
 SlashCmdList["HIDDENINTHECODE"] = slashHiddenStuff;
 
+
 SLASH_SERVERTIME1 = '/showservertime'
 local function slashServerTimeStuff(msg, editbox)
 	local hour,minute = GetGameTime();
@@ -140,6 +141,9 @@ end
 
 eventFrame:RegisterEvent("CHAT_MSG_ADDON")
 function eventhandler(self, event, prefix, message, channel, sender)
+	if  prefix~=SPULL_MSG_PREFIX then
+		return
+	end
 	name, realm = UnitName("player")
 	if realm==nil then
 		realm = GetRealmName()
